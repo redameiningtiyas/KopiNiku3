@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D2B48C"
+    tools:context=".ActivityInfo">
+
+
+    <TextView
+        android:id="@+id/Judul"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:text="Informasi Kelompok"
+        android:textColor="#D2691E"
+        android:fontFamily="@font/lobster_regular"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/Judul"
+        android:layout_marginBottom="50dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/jodi"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/jodi"
+                android:layout_marginTop="50dp"
+                android:layout_marginLeft="50dp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:layout_alignTop="@id/jodi"
+                android:layout_toRightOf="@id/jodi"
+                android:text="@string/jodi"
+                android:textColor="#D2691E"
+                android:fontFamily="@font/lb"
+                android:textSize="15dp"
+                />
+
+            <ImageView
+                android:id="@+id/arif"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/arif"
+                android:layout_marginTop="190dp"
+                android:layout_marginLeft="50dp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/arif"
+                android:layout_toRightOf="@+id/arif"
+                android:text="@string/arif"
+                android:textStyle="bold"
+                android:textColor="#D2691E"
+                android:fontFamily="@font/lb"
+                android:textSize="15dp"
+                />
+
+            <ImageView
+                android:id="@+id/aris"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/aris"
+                android:layout_marginTop="330dp"
+                android:layout_marginLeft="50dp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/aris"
+                android:layout_toRightOf="@+id/aris"
+                android:text="@string/aris"
+                android:textStyle="bold"
+                android:textColor="#D2691E"
+                android:fontFamily="@font/lb"
+                android:textSize="15dp"
+                />
+
+            <ImageView
+                android:id="@+id/reda"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/reda"
+                android:layout_marginTop="470dp"
+                android:layout_marginLeft="50dp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/reda"
+                android:layout_toRightOf="@+id/reda"
+                android:text="@string/reda"
+                android:textStyle="bold"
+                android:textColor="#D2691E"
+                android:fontFamily="@font/lb"
+                android:textSize="15dp"
+                />
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

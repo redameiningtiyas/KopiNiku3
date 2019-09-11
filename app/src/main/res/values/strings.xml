@@ -1,0 +1,30 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">Kopinya Kita</string>
+    <string name="tambahkan_topping">Tambahkan Topping</string>
+    <string name="krim">Caramel</string>
+    <string name="coklat">Coklat</string>
+    <string name="jumlah">jumlah pesanan</string>
+    <string name="harga">STRUK</string>
+
+    <string name="pesan_sekarang">Pesan</string>
+    <string name="jodi">
+            Nama    : Jodi afandi \n
+            Npm     : 1717051065 \n
+            Status  : Owner \n
+    </string>
+    <string name="arif">
+            Nama   : Arief nasrullah R. \n
+            Npm    : 1717051043 \n
+            Status : Manager I \n
+    </string>
+    <string name="aris">
+            Nama   : Alharis Dharmariski \n
+            Npm    : 1717051049 \n
+            Status : Manager II \n
+    </string>
+    <string name="reda">
+            Nama   : Reda meiningtiyas \n
+            Npm    : 1717051055 \n
+            Status : CEO \n
+    </string>
+</resources>
